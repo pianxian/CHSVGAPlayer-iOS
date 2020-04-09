@@ -7,7 +7,8 @@
 
 #import "SVGAVideoEntity+CHSVGA.h"
 #import <CHCategories/NSObject+CHBase.h>
-#import <YYCache/YYCache.h>
+
+#import <YYKit/YYKit.h>
 
 static YYCache *chVideoCache;
 

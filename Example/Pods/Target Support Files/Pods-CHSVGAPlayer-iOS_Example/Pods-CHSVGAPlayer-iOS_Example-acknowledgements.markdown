@@ -311,7 +311,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 
-## YYCache
+## YYKit
 
 The MIT License (MIT)
 

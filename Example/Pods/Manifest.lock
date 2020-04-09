@@ -1,9 +1,9 @@
 PODS:
   - "CHCategories/Foundation/NSObject/NSObject+CHBase (0.0.1)"
-  - CHSVGAPlayer-iOS (0.0.1):
+  - CHSVGAPlayer-iOS (1.0.0):
     - "CHCategories/Foundation/NSObject/NSObject+CHBase"
-    - SVGAPlayer (~> 2.3)
-    - YYCache
+    - SVGAPlayer (~> 2.5.2)
+    - YYKit
   - Protobuf (3.11.4)
   - SSZipArchive (2.2.2)
   - SVGAPlayer (2.5.2):
@@ -14,7 +14,9 @@ PODS:
     - SVGAPlayer/ProtoFiles
   - SVGAPlayer/ProtoFiles (2.5.2):
     - Protobuf (~> 3.4)
-  - YYCache (1.0.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - CHSVGAPlayer-iOS (from `../`)
@@ -25,7 +27,7 @@ SPEC REPOS:
     - Protobuf
     - SSZipArchive
     - SVGAPlayer
-    - YYCache
+    - YYKit
 
 EXTERNAL SOURCES:
   CHSVGAPlayer-iOS:
@@ -33,12 +35,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CHCategories: 5048e3bcbdc8df476a808cb9bb5041334acd62e5
-  CHSVGAPlayer-iOS: d161a59fefa6c658a4ff69623077943fac40c40c
+  CHSVGAPlayer-iOS: efd0728436fea3be259ee74dcba77ab21e0346e6
   Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   SVGAPlayer: c666a7886b72ee77d494c49aa4fd61df175dd103
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: aba9a777669e350c03df4aea3fa530789ade63f9
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1

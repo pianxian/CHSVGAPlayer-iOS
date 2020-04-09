@@ -202,7 +202,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CHCategories/CHCategories.framework"
@@ -210,7 +210,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'CHSVGAPlayer-iOS/Classes/**/*'
   s.requires_arc = true
-  s.dependency 'YYCache'
-  s.dependency 'SVGAPlayer', '~> 2.3'
+  s.dependency 'YYKit'
+  s.dependency 'SVGAPlayer', '~> 2.5.2'
   s.dependency 'CHCategories/Foundation/NSObject/NSObject+CHBase'
   s.pod_target_xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
