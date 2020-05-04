@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHSVGAPlayer-iOS'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '基于YYCache对SVGAPlayeri-iOS缓存策略的优化改造'
   s.homepage         = 'https://github.com/ColinHwang/CHSVGAPlayer-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CHSVGAPlayer-iOS/Classes/**/*'
   s.requires_arc = true
   s.dependency 'YYKit'
-  s.dependency 'SVGAPlayer', '~> 2.5.2'
+  s.dependency 'SVGAPlayer', :git => 'https://github.com/pianxian/SVGAPlayer-iOS.git'
   s.dependency 'CHCategories/Foundation/NSObject/NSObject+CHBase'
   s.pod_target_xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
