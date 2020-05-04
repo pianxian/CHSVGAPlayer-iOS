@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CHSVGAPlayer-iOS/Classes/**/*'
   s.requires_arc = true
   s.dependency 'YYKit'
-  s.dependency 'SVGAPlayer', :git => 'https://github.com/pianxian/SVGAPlayer-iOS.git'
+ # s.dependency 'SVGAPlayer', :git => 'https://github.com/pianxian/SVGAPlayer-iOS.git'
   s.dependency 'CHCategories/Foundation/NSObject/NSObject+CHBase'
   s.pod_target_xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
