@@ -41,7 +41,9 @@ static YYCache *chVideoCache;
 
 #pragma mark - Swizzle methods
 + (SVGAVideoEntity *)_ch_svga_readCache:(NSString *)cacheKey {
-    return (SVGAVideoEntity *)[chVideoCache objectForKey:cacheKey];
+    SVGAVideoEntity *cacheItem = (SVGAVideoEntity *)[chVideoCache objectForKey:cacheKey];
+    return cacheItem.sprites.count ? cacheItem :nil;
+
 }
 
 - (void)_ch_svga_saveCache:(NSString *)cacheKey {
